@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ded Moros</title>
-        <link rel="icon" type="image/x-icon" href="/assets/logo/logo.png" />
+        <link rel="icon" type="image/x-icon" href="/assets/logo/M.png" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -17,18 +17,13 @@
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
             crossorigin="anonymous"
         ></script>
-        <script src="/assets/js/copyMY.js"></script>
         <link href="/assets/css/style.css" rel="stylesheet" />
     </head>
     <body class="backg-dark">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img
-                        src="assets/logo/ico-rembg.png"
-                        alt="Logo"
-                        width="40"
-                    />
+                    <img src="assets/logo/M.png" alt="Logo" width="40" />
                 </a>
                 <button
                     class="navbar-toggler"
@@ -58,16 +53,50 @@
                             <a class="nav-link" href="/#vid">Видео</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="/#photo">Фото</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="/#price">Прайс</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/photo/">Фото</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contacts/">Контакты</a>
+                            <a class="nav-link" href="/#contacts">Контакты</a>
                         </li>
                     </ul>
                 </div>
+                <form class="d-flex">
+                    <a
+                        href="https://www.youtube.com/channel/UCDgGZpxNRw4D4Tw7JQ7sx5Q"
+                    >
+                        <img
+                            src="https://img.icons8.com/stickers/100/000000/youtube-play.png"
+                            height="48"
+                            alt="Youtube"
+                        />
+                    </a>
+                    <a href="https://www.tiktok.com/@ded.moroz.kaluga">
+                        <img
+                            src="https://img.icons8.com/color/48/000000/tiktok--v1.png"
+                            height="48"
+                            alt="TikTok"
+                        />
+                    </a>
+                    <a href="https://vk.com/dedmorozkaluga40">
+                        <img
+                            src="https://img.icons8.com/color/48/000000/vk-circled.png"
+                            height="48"
+                            alt="VK"
+                        />
+                    </a>
+                    <a
+                        href="https://ok.ru/profile/554675318470?utm_campaign=android_share&utm_content=profile"
+                    >
+                        <img
+                            src="https://img.icons8.com/fluency/48/000000/odnoklassniki-circled.png"
+                            height="48"
+                            alt="OK"
+                        />
+                    </a>
+                </form>
             </div>
         </nav>
         <div class="container text-center my-4">
@@ -83,16 +112,20 @@
         <div class="container text-center my-5">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <a name="vid"></a>
-                <h1 class="fw-light col-gray-white">Видео</h1>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
                 <div class="col">
                     <div>
-                        <video
-                            src="test.mkv"
+                        <iframe
                             class="card-img-top vid"
-                            controls
-                        ></video>
+                            width="400"
+                            height="265"
+                            src="https://www.youtube.com/embed/BxBl_LL8RKI"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
                         <div class="card-body">
                             <h5 class="card-title">Video 1</h5>
                             <p class="card-text">Some text</p>
@@ -101,11 +134,17 @@
                 </div>
                 <div class="col">
                     <div>
-                        <video
-                            src="test.mkv"
+                        <iframe
                             class="card-img-top vid"
-                            controls
-                        ></video>
+                            width="400"
+                            height="265"
+                            src="https://www.youtube.com/embed/KD3nR_AAtVY"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+
                         <div class="card-body">
                             <h5 class="card-title">Video 2</h5>
                             <p class="card-text">Some text</p>
@@ -114,11 +153,16 @@
                 </div>
                 <div class="col">
                     <div>
-                        <video
-                            src="test.mkv"
+                        <iframe
                             class="card-img-top vid"
-                            controls
-                        ></video>
+                            width="400"
+                            height="265"
+                            src="https://www.youtube.com/embed/MSQKku53Hh8"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
                         <div class="card-body">
                             <h5 class="card-title">Video 3</h5>
                             <p class="card-text">Some text</p>
@@ -127,10 +171,65 @@
                 </div>
             </div>
         </div>
+        <div class="container my-5">
+            <a name="photo"></a>
+            <div class="row">
+                <div
+                    class="row row-cols-2 row-cols-md- row-cols-lg-4 g-3"
+                    style="align-items: center"
+                >
+                    <div class="col">
+                        <img
+                            src="/assets/logo/foto1.jpeg"
+                            class="card-img-top img"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col">
+                        <img
+                            src="/assets/logo/foto3.jpeg"
+                            class="card-img-top img"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col">
+                        <img
+                            src="/assets/logo/foto2.jpeg"
+                            class="card-img-top img"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col">
+                        <img
+                            src="/assets/logo/foto4.jpeg"
+                            class="card-img-top img"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container text-center my-5">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <a name="price"></a>
                 <h1 class="fw-light col-gray-white">Прайс</h1>
+            </div>
+        </div>
+        <div class="container text-center my-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <br /><br /><br />
+                    <a name="contacts"></a>
+                    <h1 class="fw-light col-gray-white">Информация</h1>
+                    <h5 class="fw-light">
+                        Дед мороз работает в пределах главного административного
+                        округа(Москва и область, Калуга и область)
+                    </h5>
+                    <br /><br />
+                    <h1 class="fw-light col-gray-white">Контакты</h1>
+                    <h5 class="fw-light">Почта для связи: zakav@domen.ltd</h5>
+                    <h5 class="fw-light">Телефон: 8 (912) 345-67-89</h5>
+                </div>
             </div>
         </div>
     </body>

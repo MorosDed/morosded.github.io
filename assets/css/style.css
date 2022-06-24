@@ -67,6 +67,10 @@ a {
 }
 .img {
     border-radius: 0.9em;
+    transition: 1s;
+}
+.img:hover {
+    transform: scale(1.6);
 }
 .vid {
     border-radius: 0.9em;
