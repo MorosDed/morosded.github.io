@@ -5,16 +5,12 @@ function ThemeSet() {
             .removeClass("navbar-dark bg-dark")
             .addClass("navbar-light bg-light");
         $(".text").removeClass("col-gray-white");
-        $(".pbar").removeClass("pbar-bg");
-        $(".card").removeClass("card-dark");
     } else {
         $("body").addClass("backg-dark");
         $("nav")
             .addClass("navbar-dark bg-dark")
             .removeClass("navbar-light bg-light");
         $(".text").addClass("col-gray-white");
-        $(".pbar").addClass("pbar-bg");
-        $(".card").addClass("card-dark");
     }
 }
 var today = new Date().getHours();
