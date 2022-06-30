@@ -25,8 +25,3 @@ if ((today <= 6 && today >= 0) || (today <= 23 && today >= 14)) {
     localStorage.setItem("theme", "light");
 }
 ThemeSet();
-
-let buttonPlay = document.querySelector("button");
-buttonPlay.onclick = function () {
-    this.parentElement.innerHTML = "<div>Тут будет iframe</div>";
-};
