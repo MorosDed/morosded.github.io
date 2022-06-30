@@ -75,3 +75,14 @@ a {
 .vid {
     border-radius: 0.9em;
 }
+.vid1 {
+    border-radius: 16em;
+}
+@media (max-width: 992px) {
+    .sp {
+        display: none;
+    }
+}
+body {
+    background-image: url(/assets/logo/bg.jpg);
+}
